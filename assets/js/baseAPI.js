@@ -1,7 +1,8 @@
-// 注意：每次调用 $.get() 或 $.post() 或 $.ajax() 的时候，
-// 会先调用 ajaxPrefilter 这个函数
-// 在这个函数中，可以拿到我们给Ajax提供的配置对象
-$.ajaxPrefilter(function(options) {
-  // 在发起真正的 Ajax 请求之前，统一拼接请求的根路径
-  options.url = 'http://ajax.frontend.itheima.net' + options.url
-})
+//每次调用post get Ajax 时都先调用 ajaxPrefilter 这个函数
+//这个函数可以拿到我们提供给Ajax的配置对象
+$.ajaxPrefilter(function (options) {
+  /* 发起请求时会进行URL地址拼接 这样我们书写接口时不需要每次都手动 拼接接口地址  以后根路径发生改变也比较好维护*/
+  options.url =
+    "http://www.liulongbin.top:3007" +
+    options.url;
+});
