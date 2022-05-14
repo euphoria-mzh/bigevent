@@ -1,0 +1,61 @@
+.layui-footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+.iconfont {
+  margin-right: 5px;
+}
+
+.layui-icon {
+  margin-right: 5px;
+  margin-left: 25px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.layui-body {
+  overflow: hidden;
+}
+
+a {
+  transition: none;
+   !important
+}
+
+.userinfo {
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 12px;
+  /* border-top: 1px solid black; */
+  user-select: none;
+}
+
+.layui-side-scroll .userinfo {
+  border-bottom: 1px solid #282B33;
+}
+
+.text_avatar {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: #009688;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 4px;
+  position: relative;
+  top: 4px;
+  margin-right: 5px;
+}
+
+.layui-nav-img {
+  width: 40px;
+  height: 40px;
+}
